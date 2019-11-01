@@ -101,15 +101,14 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .bottom-content {
@@ -129,6 +128,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top:90px;
 }
 
 footer nav {
@@ -144,3 +144,143 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+header nav {
+margin:auto;
+
+}
+
+nav{
+    margin: 20px 2.5%;
+    display: flex;
+    justify-content: space-between;
+}    
+
+
+
+.top-content{
+    margin-top: 30px;
+}
+
+.boxes .box1 {
+    background-color: teal;
+}
+
+.boxes .box2 {
+    background-color: gold ;
+}
+
+.boxes .box3 {
+    background-color: cadetblue;
+}
+
+.boxes .box4{
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
+}
+
+
+.grid{
+    margin-top:-40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.strategy{
+    display: flex;
+    flex-direction: column;
+    width:48%;
+    margin-top:60px;
+}
+
+.how{
+    display: flex;
+    flex-direction: column;
+    width:48%;
+    margin-top:60px;
+
+}
+
+.end{
+    margin-top:40px;
+}
+
+.places{
+    display: flex;
+    flex-direction: column;
+    width:48%;
+    margin-top:60px;
+
+
+}
+
+.collab{
+    display: flex;
+    flex-direction: column;
+    width:48%;
+    margin-top:60px;
+
+}
+
+.strategy img{
+    margin-bottom: 30px;
+}
+
+.how img{
+    margin-bottom:30px;
+}
+
+.places img{
+    margin-bottom:30px;
+
+}
+
+.collab img{
+    margin-bottom:30px;
+
+}
+
+hr {
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+
+.learnMore{
+    border: black 1px solid;
+    text-align: center;
+    width:50%;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 20%;
+}
+  

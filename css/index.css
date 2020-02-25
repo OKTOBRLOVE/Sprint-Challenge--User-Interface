@@ -147,22 +147,29 @@ footer nav a {
 
 header{
     display: flex;
+    justify-content: space-between;
     margin-bottom: 30px;
     margin-top: 40px;
 }
 
-header nav {
-margin:auto;
 
-}
 
 nav{
     margin: 20px 2.5%;
+    width:70%;
     display: flex;
-    justify-content: space-between;
 }    
 
+.logo{
+    width:10%;
+}
 
+header nav .links{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 .top-content{
     margin-top: 30px;
@@ -284,3 +291,9 @@ hr {
     border-radius: 20%;
 }
   
+.aboutPara{
+    margin-top:30px;
+}
+
+
+
